@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+.envelope {
+    font-size: 50px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.envelope:hover {
+    transform: scale(1.1);
+}
+
+.note {
+    display: none;
+    margin-top: 20px;
+    font-size: 24px;
+    background-color: #ffefcd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.note p {
+    font-weight: bold;
+    color: #555;
+}
